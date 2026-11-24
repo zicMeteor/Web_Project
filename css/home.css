@@ -1,31 +1,122 @@
 body {
-    background: white;
+    margin: 0;
+    background: #f6f6f4;
     color: black;
 }
 
 .header{
-    border: 1px solid rgb(240, 240, 245);
+    display : flex;
+    padding: 16px;
+    border-bottom: 1px solid #e2e2de;
 }
 
 .header h1{
     margin: 0;
+    font-size: 40px;
+}
+
+.menu{
+    
+}
+
+.nav_item{
+    color:#5c5c5c;
+}
+
+main{
+    margin: 0 auto;
+    padding: 30px 25px;
 }
 
 .class-box{
-    border: 1px solid #c5c5bf;
-    padding: 28px;
+    padding: 30px;
+    background: #fff;
+    border: 1px solid white;
+}
+
+.class-box h2{
+    margin: 0 0 4px;
+    font-size: 25px;
+}
+
+.class-box p {
+    color:black
 }
 
 .every-box{
+    display: flex;
     margin-bottom: 12px;
+}
+
+.every-box p,
+.every-box label {
+    margin: 0;
+    font-size: 18px;
+}
+.Grade p, .class-box p {
+    font-size: 15px;
+
+}
+
+input{
+    width: 230px;
+    height : 25px;
+    font-size: 13px;
+    border: 1px solid #c8c8c2;
+}
+
+button{
+    width: 40px;
+    height: 0 20px;
+    font-size: 15px;
+    color: white;
+    background: #1d4ed8;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1e3a8a
+
 }
 
 .Lecture-box{
-    border: 1px solid blue;
+    margin:  24px 0;
+    font-size: 15px;
 }
 
-.Grade{
-    margin-bottom: 12px;
-    border: 1px solid blue;
+table {
+    width: 100%;
+    border-bottom: 1px solid #e2e2de;
+    text-align: left;
+
 }
+
+th,td {
+    padding: 20px 15px;
+    border-bottom: 1px solid #e2e2de ;
+}
+
+th{
+    background: #f6f6f4;
+    color: black;
+}
+
+.class_Grade {
+    color: black;
+}
+.Grade{
+    margin-bottom:15px;
+}
+
+.Grade p{
+    margin: 6px 0;
+}
+
+
+
+
+
+
+
 
